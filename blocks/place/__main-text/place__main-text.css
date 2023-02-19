@@ -1,0 +1,23 @@
+.place__main-text {
+    max-width: 484px;
+}
+
+@media screen and (max-width: 1126px) {  
+    .place__main-text {
+        width: 440px;
+    }
+}
+
+@media screen and (max-width: 990px) {  
+    .place__main-text {
+        width: 320px;
+    }
+   
+}
+
+@media screen and (max-width: 400px) {  
+    .place__main-text {
+        width: 288px;
+    }
+   
+}

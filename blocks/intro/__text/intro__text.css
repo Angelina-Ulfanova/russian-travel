@@ -1,0 +1,18 @@
+.intro__text {
+    font-family: "Inter-Regular";
+    font-size: 16px;
+    line-height: 26px;
+    width: 690px;
+    min-height: 208px;
+    margin-block: 0;
+}
+
+@media screen and (max-width: 400px) {    
+    .intro__text {
+        font-family: "Inter-Regular";
+        font-size: 16px;
+        line-height: 26px;
+        width: 288px;
+        min-height: 520px;
+    }
+}
