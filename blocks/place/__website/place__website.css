@@ -1,9 +1,12 @@
 .place__website {
-    width: 456px;
-    min-height: 26px;
+    max-width: 456px;
     display: grid;
     align-self: end;
-    margin-bottom: 48px;
     grid-auto-rows: auto;
+}
+
+@media screen and (max-width: 580px) {   
+    .place__website {
+        max-width: 288px;
 }
 

@@ -2,6 +2,7 @@
     width: 984px;
     height: 615px;
     margin: auto;
+    object-fit: cover;
 }
 
 @media screen and (max-width: 1024px) {    
@@ -17,10 +18,15 @@
     }
 }
 
-@media screen and (max-width: 400px) {   
+@media screen and (max-width: 768px) {  
     .lead__image {
-        width: 300px;
-        height: 200px;
-        margin: auto;
+        width: 100%;
     }
 }
+
+@media screen and (max-width: 400px) {   
+    .lead__image {
+        width: 295px;
+        height: 200px;
+    }
+} 
