@@ -1,19 +1,16 @@
 .place__main-text {
     max-width: 484px;
-    width: 100%;
 }
 
 @media screen and (max-width: 1126px) {  
     .place__main-text {
         max-width: 440px;
-        width: 100%;
     }
 }
 
 @media screen and (max-width: 990px) {  
     .place__main-text {
         max-width: 320px;
-        width: 100%;
     }
    
 }
@@ -21,7 +18,8 @@
 @media screen and (max-width: 600px) {  
     .place__main-text {
         max-width: 288px;
-        width: 100%;
+        padding-left: 16px;
+        padding-right: 16px;
     }
    
 }
