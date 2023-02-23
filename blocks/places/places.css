@@ -20,10 +20,10 @@
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 620px) {
     .places {
         grid-template-columns: 1fr;
-        max-width: 600px;
+        max-width: 620px;
         grid-row-gap: 50px;
         padding-bottom: 66px;
     }

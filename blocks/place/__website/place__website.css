@@ -5,7 +5,7 @@
     grid-auto-rows: auto;
 }
 
-@media screen and (max-width: 610px) {   
+@media screen and (max-width: 620px) {   
     .place__website {
         max-width: 288px;
         padding-left: 16px;
